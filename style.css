@@ -1,0 +1,147 @@
+  html
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  margin: 10px;
+  background-color: white;
+}
+
+.tiret {
+  max-width: 10%;
+  height: auto;
+  margin-left: 50px;
+  position: fixed;
+  top: 11.4em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: left;
+    margin-left: 50px;
+    top: 1em;
+}
+
+h3 {
+    color: black;
+    font-size: 3em;
+    text-align: left;
+    margin-left: 50px;
+    top: 1em;
+}
+
+h2 {
+  font-size: 2.2em;
+  text-align: center;
+  height: 25px;
+}
+
+nav {
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 0px;
+}
+
+a {
+  font-size: 2em;
+  color: pink;
+  text-decoration: none;
+}
+
+p {
+color: grey;
+text-align: left;
+}
+
+p.contact {
+color: grey;
+text-align: left;
+margin-left: 50px;
+margin-right: 100px;
+margin-top: 10px;
+}
+
+img.imageaccueil {
+  max-width: 50%;
+  height: auto;
+}
+
+img.imageaccueil:hover {
+  max-width: 50%;
+  height: auto;
+  filter: blur(2.5px);
+}
+
+.imageaccueil:hover {
+  overflow: hidden;
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: right;
+  margin-right: 50px;
+  padding-top: 30px;
+}
+
+.tiretarticle {
+  max-width: 10%;
+  height: auto;
+  margin-left: 50px;
+  position: fixed;
+  top: 8.8em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.boite {
+  display: flex;
+}
+
+.colonne.texte {
+  width:20%;
+  padding-left:50px;
+}
+
+.colonne.images {
+  width: 80%;
+  max-width: 100%;
+}
+
+.carnet {
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  height: 25px;
+}
+
+.poeticurious {
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  height: 25px;
+}
+
+.reliure {
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  height: 25px;
+}
+
+.anonymes {
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  height: 25px;
+}
