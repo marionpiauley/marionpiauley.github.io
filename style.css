@@ -75,7 +75,7 @@ img.imageaccueil {
 img.imageaccueil:hover {
   max-width: 50%;
   height: auto;
-  filter: blur(2.5px);
+  filter: blur(2px);
 }
 
 .imageaccueil:hover {
@@ -140,6 +140,13 @@ footer {
 }
 
 .anonymes {
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  height: 25px;
+}
+
+.luthier {
   color: black;
   font-size: 1.2em;
   text-align: center;
