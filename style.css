@@ -37,19 +37,26 @@ h3 {
 }
 
 h2 {
-  font-size: 2.2em;
+  font-size: 1,1em;
   text-align: center;
   height: 25px;
+  padding-bottom: 70px;
+  margin-top: 5px;
+}
+
+h4 {
+  font-size: 2em;
+  color: pink;
+  text-decoration: none;
+  margin-bottom: -60px;
 }
 
 nav {
   text-align: left;
   margin-left: 50px;
-  padding-top: 0px;
 }
 
 a {
-  font-size: 2em;
   color: pink;
   text-decoration: none;
 }
@@ -68,12 +75,12 @@ margin-top: 10px;
 }
 
 img.imageaccueil {
-  max-width: 50%;
+  max-width: 90%;
   height: auto;
 }
 
 img.imageaccueil:hover {
-  max-width: 50%;
+  max-width: 90%;
   height: auto;
   filter: blur(2px);
 }
@@ -103,6 +110,34 @@ footer {
   display: flex;
   justify-content: flex-start;
 }
+
+.conteneur {
+  display: flex;
+}
+
+#colonne1 {
+   width:100%;
+   max-width: 100%;
+   padding-left:150px;
+   padding-top: 100px;
+   height:auto;
+   float: left;
+   justify-content: flex-start;
+   display: inline-block;
+   align-items: baseline;
+}
+
+#colonne2 {
+   width:100%;
+   max-width: 100%;
+   padding-right: 50px;
+   padding-top: 100px;
+   height:auto;
+   float: right;
+   justify-content: flex-end;
+   display: inline-block;
+   align-items: baseline;
+ }
 
 .boite {
   display: flex;
