@@ -11,29 +11,67 @@ body {
   background-color: white;
 }
 
-.tiret {
-  max-width: 10%;
-  height: auto;
-  margin-left: 50px;
-  position: fixed;
-  top: 11.4em;
-  display: flex;
+header{
+  position:relative;
+  height:280px;
+}
+
+#headerprojet {
+  position:relative;
+  top: 0px;
+  float: left;
+}
+
+#name {
+  position: relative;
+  top: 0px;
+  float: left;
   justify-content: flex-start;
 }
+
+#menu {
+  position: relative;
+  top: 0px;
+  float: right;
+  justify-content: flex-end;
+}
+
+#menuprojet {
+  position: relative;
+  top: 0px;
+  float: right;
+  justify-content: flex-end;
+}
+
+#conteneur {
+  display: flex;
+  margin: 20px;
+}
+
+#colonne1 {
+   width:100%;
+   max-width: 100%;
+   height:auto;
+   float: left;
+   justify-content: flex-start;
+   display: inline-block;
+   align-items: baseline;
+}
+
+#colonne2 {
+   width:100%;
+   max-width: 100%;
+   height:auto;
+   float: right;
+   justify-content: flex-end;
+   display: inline-block;
+   align-items: baseline;
+ }
 
 h1 {
     font-size: 3em;
     text-align: left;
-    margin-left: 50px;
-    top: 1em;
-}
-
-h3 {
-    color: black;
-    font-size: 3em;
-    text-align: left;
-    margin-left: 50px;
-    top: 1em;
+    margin-left: 20px;
 }
 
 h2 {
@@ -44,11 +82,26 @@ h2 {
   margin-top: 5px;
 }
 
+h3 {
+    color: black;
+    font-size: 2em;
+    text-align: left;
+    margin-left: 50px;
+    top: 0px;
+    text-decoration: underline;
+}
+
 h4 {
   font-size: 2em;
   color: pink;
   text-decoration: none;
+  margin-right: 20px;
   margin-bottom: -60px;
+  text-align: right;
+}
+
+h4:hover {
+  background: black;
 }
 
 nav {
@@ -64,6 +117,7 @@ a {
 p {
 color: grey;
 text-align: left;
+margin-top: -5px;
 }
 
 p.contact {
@@ -77,16 +131,19 @@ margin-top: 10px;
 img.imageaccueil {
   max-width: 90%;
   height: auto;
+  z-index: 1;
 }
 
 img.imageaccueil:hover {
   max-width: 90%;
   height: auto;
   filter: blur(2px);
+  z-index: 1;
 }
 
 .imageaccueil:hover {
   overflow: hidden;
+  z-index: 1;
 }
 
 img {
@@ -101,43 +158,26 @@ footer {
   padding-top: 30px;
 }
 
+.tiret {
+  max-width: 10%;
+  height: auto;
+  margin-left: 20px;
+  position: fixed;
+  top: 12em;
+  display: flex;
+  z-index: 2;
+}
+
 .tiretarticle {
   max-width: 10%;
   height: auto;
-  margin-left: 50px;
+  margin-left: 20px;
   position: fixed;
   top: 8.8em;
   display: flex;
   justify-content: flex-start;
+  z-index: 2;
 }
-
-.conteneur {
-  display: flex;
-}
-
-#colonne1 {
-   width:100%;
-   max-width: 100%;
-   padding-left:150px;
-   padding-top: 100px;
-   height:auto;
-   float: left;
-   justify-content: flex-start;
-   display: inline-block;
-   align-items: baseline;
-}
-
-#colonne2 {
-   width:100%;
-   max-width: 100%;
-   padding-right: 50px;
-   padding-top: 100px;
-   height:auto;
-   float: right;
-   justify-content: flex-end;
-   display: inline-block;
-   align-items: baseline;
- }
 
 .boite {
   display: flex;
