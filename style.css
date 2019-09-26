@@ -234,6 +234,7 @@ footer {
 
 .boite {
   display: flex;
+  margin-top: -40px;
 }
 
 .colonne.texte {
@@ -248,12 +249,13 @@ footer {
 
 .colonne.texte.contact {
   width:30%;
-  padding-left:30px;
+  padding-left:20px;
 }
 
 .colonne.cv {
   width: 100%;
   max-width: 100%;
+  margin-top: 35px;
 }
 
 .carnet {
@@ -264,13 +266,6 @@ footer {
 }
 
 .poeticurious {
-  color: black;
-  font-size: 1.2em;
-  text-align: center;
-  height: 25px;
-}
-
-.reliure {
   color: black;
   font-size: 1.2em;
   text-align: center;
@@ -390,6 +385,13 @@ footer {
 }
 
 .profil {
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  height: 25px;
+}
+
+.oiseaux {
   color: black;
   font-size: 1.2em;
   text-align: center;
